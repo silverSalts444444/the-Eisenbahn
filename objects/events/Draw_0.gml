@@ -17,4 +17,8 @@ if global.event_timer > 0 {
     draw_set_font(Font1); 
     global.event_timer--;
 }
+if (global.event_timer <= 0 && global.year = 1871){
+	room_goto(endscreen);
+}
+
 

@@ -1,3 +1,4 @@
+hover = true;
 if (global.sc1 != noone && global.sc2 != noone){
 	var dist = point_distance(global.sc1.x, global.sc1.y, global.sc2.x, global.sc2.y);
     var cost = floor(dist * 1.5);

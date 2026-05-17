@@ -32,7 +32,7 @@ global.events = [
 		}
     }},
     {year: 1871, text: "Germany unified! The Reich is born.", effect: function() {
-        
+        instance_destroy(inst_59162F76);
     }}
 ];
 
