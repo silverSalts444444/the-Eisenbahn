@@ -1,0 +1,1 @@
+global.sc2 = id;
